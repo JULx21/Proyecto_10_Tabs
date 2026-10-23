@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.caja {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.boton {
+  border: none;
+  background: none;
+  color: gray;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boton.activo {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.contenido {
+  display: none;
+  background: black;
+  color: white;
+  padding: 40px;
+  margin-top: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.contenido.activo {
+  display: block;
+}
